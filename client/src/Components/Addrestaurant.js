@@ -51,7 +51,7 @@ const Addrestaurant = () => {
 
   return (
     <Container fluid>
-      <Row className="formrow">
+      <Row>
         <Col className="columndiv1" lg="6">
           <form className="div-form" onSubmit={handleSubmit(onSubmit)}>
             <div className="appTitle">
